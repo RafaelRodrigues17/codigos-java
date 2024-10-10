@@ -24,7 +24,7 @@ import java.util.Scanner;
         if(escolhaUsuario.equalsIgnoreCase(escolhaComputador)) {
             return "Empate!";
 
-        }else if ((escolhaUsuario.equalsIgnoreCase("Pedra") && escolhaComputador.equals("Tesoura")) ||
+        }else if((escolhaUsuario.equalsIgnoreCase("Pedra") && escolhaComputador.equals("Tesoura")) ||
                 (escolhaUsuario.equalsIgnoreCase("Papel") && escolhaComputador.equals("Pedra")) ||
                 (escolhaUsuario.equalsIgnoreCase("Tesoura") && escolhaComputador.equals("Papel"))) {
 
